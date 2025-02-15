@@ -1,0 +1,22 @@
+[package]
+name = "lsp-client"
+version = "0.1.0"
+edition = "2021"
+
+description = "A client for the Language Server Protocol"
+repository = "https://github.com/unknown/lsp-client"
+readme = "README.md"
+license-file = "LICENSE"
+
+[dependencies]
+async-trait = "0.1.85"
+jsonrpsee = { version = "0.24.8", features = ["async-client", "client-core"] }
+lsp-types = "0.97.0"
+serde = "1.0.217"
+serde_json = "1.0.138"
+thiserror = "2.0.11"
+tokio = { version = "1.43.0", features = ["io-util"] }
+
+[dev-dependencies]
+anyhow = "1.0.95"
+tokio = { version = "1.43.0", features = ["full"] }
