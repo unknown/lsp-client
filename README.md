@@ -1,5 +1,9 @@
 # lsp-client
 
+[![crates.io](https://img.shields.io/crates/v/lsp-client.svg)](https://crates.io/crates/lsp-client)
+[![Documentation](https://docs.rs/lsp-client/badge.svg)](https://docs.rs/lsp-client)
+[![MIT licensed](https://img.shields.io/crates/l/lsp-client.svg)](./LICENSE)
+
 A client for the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/).
 
 ## Usage

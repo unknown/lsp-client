@@ -6,7 +6,7 @@ edition = "2021"
 description = "A client for the Language Server Protocol"
 repository = "https://github.com/unknown/lsp-client"
 readme = "README.md"
-license-file = "LICENSE"
+license = "MIT"
 
 [dependencies]
 async-trait = "0.1.85"
